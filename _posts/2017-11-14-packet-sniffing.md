@@ -29,7 +29,7 @@ Packets have a destination IP address of the router's **default gateway** when h
 - Form data.
 - Cookies (use the session ID to impersonate the victim)
 
-<https://github.com/twlinux/club/wiki/Spying-on-HTTP-using-Wireshark>
+<https://github.com/twlinux/club/wiki/Wireshark>
 
 # Week 9: password theft from SSL/TLS connections
 
