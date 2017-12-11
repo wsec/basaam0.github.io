@@ -17,7 +17,7 @@ subtitle: Week 7-9 - attacking internet connections
 To compromise network traffic going outside the LAN, we must intercept traffic between the client and the router.
 
 <center>
-<img src="/twlinux/img/internet-topology.png" alt="internet topology">
+<img src="/img/internet-topology.png" alt="internet topology">
 </center>
 
 Packets have a destination IP address of the router's **default gateway** when headed out to the public Internet.
