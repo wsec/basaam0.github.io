@@ -1,6 +1,6 @@
 # Wootton Linux Club website
 
-[![license](https://img.shields.io/github/license/twlinux/twlinux.github.io.svg)](https://github.com/twlinux/twlinux.github.io)
+[![license](https://img.shields.io/github/license/twlinux/twlinux.github.io.svg)](https://github.com/twlinux/twlinux.github.io/blob/master/LICENSE)
 
 This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)*. *Beautiful Jekyll* is licensed under the MIT license.
 
@@ -14,7 +14,7 @@ Do these steps *once*.
 
 ## Run a development server
 
-`bundle exec jekyll serve` will start a development server on http://127.0.0.1:4000/twlinux/. Links to the homepage will not work on the local development server (they only work when published to github.io)
+`bundle exec jekyll serve` will start a development server on http://127.0.0.1:4000/. Links to the homepage will not work on the local development server (they only work when published to github.io)
 
 The best way to run a local development server is to use the Docker container. I have no idea how to do that though. Reference the [upstream documentation](https://github.com/daattali/beautiful-jekyll#advanced-local-development-using-docker) for more information. 
 

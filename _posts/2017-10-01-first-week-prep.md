@@ -12,7 +12,7 @@ If you have a spare USB flash drive, please bring it.
 
 We will be working initially with a distro called [Elementary OS](https://elementary.io/), which is based on [Ubuntu](https://www.ubuntu.com/). Ubuntu is the most popular distribution for beginners (though I'm not particularly fond of it).
 
-Download the Elementary OS ISO from their website (<https://elementary.io/>) and image your USB flash drive according to [this guide I wrote](https://github.com/jennydaman/twlinux/wiki/Creating-a-bootable-Linux-live-disk-with-Rufus-on-Microsoft-Windows). 
+Download the Elementary OS ISO from their website (<https://elementary.io/>) and image your USB flash drive according to [this guide I wrote](https://github.com/twlinux/club/wiki/Creating-a-bootable-Linux-live-disk-with-Rufus-on-Microsoft-Windows). 
 
 ![A screenshot of the Elementary OS desktop environment, Pantheon](/img/pantheon.jpg)
 

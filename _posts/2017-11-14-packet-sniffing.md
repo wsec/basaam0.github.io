@@ -29,7 +29,7 @@ Packets have a destination IP address of the router's **default gateway** when h
 - Form data.
 - Cookies (use the session ID to impersonate the victim)
 
-<https://github.com/jennydaman/twlinux/wiki/Spying-on-HTTP-using-Wireshark>
+<https://github.com/twlinux/club/wiki/Spying-on-HTTP-using-Wireshark>
 
 # Week 9: password theft from SSL/TLS connections
 
@@ -39,8 +39,8 @@ HTTP is being phased out, however about 40% of internet traffic remains unencryp
 
 Decryption is infeasible, to attack SSL/TLS we should force unencrypted connections.
 
-<https://github.com/jennydaman/twlinux/wiki/sslstrip>
+<https://github.com/twlinux/club/wiki/sslstrip>
 
 Big sites use HSTS (HTTP Strict Transport Security) which can get pesky. We can try to get around it.
 
-<https://github.com/jennydaman/twlinux/wiki/MitM-Framework>
+<https://github.com/twlinux/club/wiki/MitM-Framework>
