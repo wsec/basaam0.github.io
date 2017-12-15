@@ -17,10 +17,10 @@ You can win a unixsticker (or several) by being the first to complete these chal
 |---------|-------------|---------------------------|
 | ![Arch Linux Badge Sticker](https://www.unixstickers.com/image/cache/data/stickers/archlinux/arch_sh-340x340.png) | Arch Linux badge sticker | First to install Arch Linux and make it "usable": manages bootloader, can connect to the internet, has a normal user, at least one [AUR](https://aur.archlinux.org/) package. |
 | ![Ubuntu Circle Keyboard Sticker](https://www.unixstickers.com/image/cache/data/stickers/ubuntu/circle_Ubuntu-orange-sh-340x340.png)| Ubuntu Circle keyboard stickers (x3) | Install any Debian based distro on your own computer. |
-| ![Bash sticker full logo](https://www.unixstickers.com/image/cache/data/stickers/binbash/Bash-logotype-new.sh-340x340.png) | Bash sticker full logo | |
+| ![Bash sticker full logo](https://www.unixstickers.com/image/cache/data/stickers/binbash/Bash-logotype-new.sh-340x340.png) | Bash sticker full logo | [Week 12: *Unsafe* Competition ](/2017-12-14-unsafe/)|
 | ![rm -rf / shaped sticker](https://www.unixstickers.com/image/cache/data/stickers/shell/rm--rf.sh-340x340.png) | `rm -rf /` shaped sticker (0) | Week 3 "Linux Destruction" discussion |
 | ![git badge sticker](https://www.unixstickers.com/image/cache/data/stickers/git/git_badge.fw-340x340.png)| git badge sticker (0) | |
-| ![Budgie sticker](http://www.unixstickers.com/image/cache/data/stickers/budgie/Budgie_logo_shaped.sh-340x340.png)| Budgie sticker | Desktop-related activity |
+| ![Budgie sticker](http://www.unixstickers.com/image/cache/data/stickers/budgie/Budgie_logo_shaped.sh-340x340.png)| Budgie sticker | (maybe) [Week 12: *Unsafe* Competition](/2017-12-14-unsafe/) |
 | ![Tux square keyboard stickers](https://www.unixstickers.com/image/cache/data/stickers/keyboard/rect_tux-full_3x.sh-340x340.png) | Tux square keyboard stickers (x2) | Small, general award |
 | ![Kali Linux badge sticker](https://www.unixstickers.com/image/cache/data/stickers/kali/Kali-linux-dragon-and-logo.sh-340x340.png) | Kali Linux badge sticker (x10) | c2VjcmV0 |
-| ![Kali Linux dragon](https://www.unixstickers.com/image/cache/data/stickers/kali/kali-linux-logo-and-type-2.0.sh-340x340.png) | Kali Linux dragon | TBA |
+| ![Kali Linux dragon](https://www.unixstickers.com/image/cache/data/stickers/kali/kali-linux-logo-and-type-2.0.sh-340x340.png) | Kali Linux dragon | [Week 12: *Unsafe* Competition](/2017-12-14-unsafe/) |
