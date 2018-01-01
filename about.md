@@ -6,7 +6,7 @@ subtitle: Linux Club - Systems, Software, Security
 
 Our club encourages the use of bleeding-edge open source solutions. We teach students unique skills for them to excel in the field of information technology.
 
-Our current focus is on **penetration testing with [Parrot Security OS](https://parrotsec.org/).**
+Our current focus is on **penetration testing** with the security-focused Linux distributions [Kali Linux](https://kali.org/) and [Parrot Security OS](https://parrotsec.org/).
 
 **Founder**: Jennings Zhang
 
@@ -16,7 +16,7 @@ Our current focus is on **penetration testing with [Parrot Security OS](https://
 
 **Room**: 15 networking lab (next to the cafeteria)
 
-We meet **every Tuesday after-school from 14:40 to 15:30**, with the occasional exception. 
+We meet **every Tuesday after-school from 14:40 to 16:00**.
 
 Contact [twlinux86@gmail.com](mailto:twlinux86@gmail.com) for more information.
 
