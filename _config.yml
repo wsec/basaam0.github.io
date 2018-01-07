@@ -35,19 +35,15 @@ avatar: "/img/nc-terminal.png"
 # title-img: /path/to/image
 
 # --- Background colour/image options --- #
-
-# By default, the navigation bar and footer have a light gray background, and the main page
-# has a white background. You can specify a different background colour or a background image
-# for the navigation bar, the main page, and the footer.
 navbar-col: "#333"
 navbar-text-col: "#EEE"
 navbar-children-col: "#333"
-# navbar-img: "/img/bgimage.png"
-# footer-col: "blue"
-# footer-img: "/img/bgimage.png"
-# page-col: "#FF0000"
-# page-img: "/img/bgimage.png"
+page-col: "#FFF"
 hover-col: "DeepSkyBlue"
+link-col: "#008AFF"
+footer-col: "#F5F5F5"
+footer-text-col: "#777"
+footer-link-col: "#404040"
 
 # --- Footer options --- #
 
