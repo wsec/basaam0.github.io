@@ -8,3 +8,12 @@ td img {
 thead tr th {
     text-align: center;
 }
+
+summary h3 {
+    display: inline-block;
+}
+
+table {
+    margin: auto;
+}
+

@@ -9,10 +9,10 @@ url: "https://twlinux.github.io/"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Linux Club at Wootton HS
+title: Wootton Red Team 2018
 
 # Short description of your site
-description: 2017/2018 Systems, Software, Security
+description: Systems, Software, Security
 
 # --- Navigation bar options --- #
 
@@ -25,7 +25,6 @@ navbar-links:
     - Installing Software: "https://github.com/twlinux/club/wiki/Installing-software-(apt)"
     - Solus Project: "https://solus-project.com/"
   LINUX commands: "https://github.com/jennydaman/twlinux/wiki/Basic-UNIX-and-bash-commands"
-  Stickers: "stickers"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -35,12 +34,14 @@ avatar: "/img/nc-terminal.png"
 # title-img: /path/to/image
 
 # --- Background colour/image options --- #
-navbar-col: "#333"
+navbar-col: "linear-gradient(to left, #000000 20%, #800000 100%)"
 navbar-text-col: "#EEE"
 navbar-children-col: "#333"
+navbar-brand-hover-col: "LightGrey"
+navbar-right-hover-col: "#ff0000"
 page-col: "#FFF"
-hover-col: "DeepSkyBlue"
-link-col: "#008AFF"
+hover-col: "#b30000"
+link-col: "#800000"
 footer-col: "#F5F5F5"
 footer-text-col: "#777"
 footer-link-col: "#404040"

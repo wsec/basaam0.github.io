@@ -25,4 +25,5 @@ public boolean checkB(String username, String pass) {
 Which function is safer, and more importantly, *why*?
 
 <details><summary>Hint</summary>conditional short-circuiting</details>
-<br />
+
+Leave a Disqus comment below. The first correct answer will recieve a [Lockheed Martin webcam cover](/2017-10-16-stickers)

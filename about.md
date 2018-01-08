@@ -1,12 +1,18 @@
 ---
 layout: page
 title: About
-subtitle: Linux Club - Systems, Software, Security
+subtitle: Red Team (Linux Club) - Systems, Software, Security
 ---
 
-Our club encourages the use of bleeding-edge open source solutions. We teach students unique skills for them to excel in the field of information technology.
+From [Wikipedia](https://en.wikipedia.org/wiki/Red_team):
 
-Our current focus is on **penetration testing** with the security-focused Linux distributions [Kali Linux](https://kali.org/) and [Parrot Security OS](https://parrotsec.org/).
+> A red team or the red team is an independent group that challenges an organization to improve its effectiveness by assuming an adversarial role or point of view. It is particularly effective in organizations with strong cultures and fixed ways of approaching problems.
+>
+> When used in a hacking context, a red team is a group of *white-hat hackers* that attack an organization's digital infrastructure as an attacker would in order to test the organization's defenses (often known as "penetration testing").
+
+Wootton Red Team (originally Linux Club) is an after-school club that teaches students about advanced computer security and Linux system adminstration. We perform **penetration testing** with the security-focused distributions [Kali Linux](https://kali.org/) and [Parrot Security OS](https://parrotsec.org/).
+
+*Note: we have never attacked school servers, please let me keep my computer priveleges =/*
 
 **Founder**: Jennings Zhang
 
