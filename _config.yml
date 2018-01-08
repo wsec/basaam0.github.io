@@ -1,17 +1,6 @@
-# --- General options --- #
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a GitHub project page then use these settings:
 url: "https://twlinux.github.io/"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
 title: Wootton Red Team 2018
-
-# Short description of your site
 description: Systems, Software, Security
 
 # --- Navigation bar options --- #
@@ -26,12 +15,7 @@ navbar-links:
     - Solus Project: "https://solus-project.com/"
   LINUX commands: "https://github.com/jennydaman/twlinux/wiki/Basic-UNIX-and-bash-commands"
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
 avatar: "/img/darkred-terminal.png"
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-# title-img: /path/to/image
 
 # --- Background colour/image options --- #
 navbar-col: "linear-gradient(to left, #000000 20%, #800000 100%)"
@@ -52,14 +36,11 @@ author:
   name: Jennings Zhang
 
 # Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
   email: "twlinux86@gmail.com"
   facebook: "groups/140764279769355"
   github: "twlinux"
+#  rss: true
 # twitter: daattali
 # reddit: yourname
 # google-plus: +DeanAttali
@@ -75,31 +56,10 @@ social-network-links:
 # twitch: yourname
 # yelp: yourname
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: true
-  facebook: true
-  email: true
-  twitter: false
-  google-plus: false
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
-
 # Select which share links to show in posts
 share-links-active:
   twitter: false
-  facebook: false
+  facebook: true
   google: false
   linkedin: false
 
