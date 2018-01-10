@@ -26,4 +26,8 @@ Which function is safer, and more importantly, *why*?
 
 <details><summary>Hint</summary>conditional short-circuiting</details>
 
-Leave a Disqus comment below. The first correct answer will recieve a [Lockheed Martin webcam cover](/2017-10-16-stickers)
+Three people have already solved this, of which the first two received [Lockheed Martin webcam covers](/2017-10-16-stickers).
+
+The answer can be found here:
+
+<https://github.com/Alex-Werner/http-server-with-auth/blob/2a882d1e093cfc4bec5cb740e0a3a4d4965e9824/lib/http-server-with-auth.js#L73>
