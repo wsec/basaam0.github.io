@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: Red Team (Linux Club) - Systems, Software, Security
+subtitle: Red Team 2018 (Linux Club) - Systems, Software, Security
 ---
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Red_team):
@@ -25,6 +25,13 @@ Wootton Red Team (originally Linux Club) is an after-school club that teaches st
 We meet **every Tuesday after-school from 14:40 to 16:00**.
 
 Contact [twlinux86@gmail.com](mailto:twlinux86@gmail.com) for more information.
+
+### Code of Conduct
+
+- Do not DOS anyone.
+- No Japanese cartoons.
+
+*****
 
 This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)*. *Beautiful Jekyll* is licensed under the MIT license. This website content belongs to [the public domain](https://unlicense.org/).
 
