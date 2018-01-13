@@ -12,7 +12,9 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Red_team):
 
 Wootton Red Team (originally Linux Club) is an after-school club that teaches students about advanced computer security and Linux system adminstration. We perform **penetration testing** with the security-focused distributions [Kali Linux](https://kali.org/) and [Parrot Security OS](https://parrotsec.org/).
 
-*Note: we have never attacked school servers, please let me keep my computer priveleges =/*
+[Flyer](https://twlinux.github.io/flyer/wootton%20red%20team.pdf)
+
+*Note: we do not attack and have never attacked school servers, please let me keep my computer privileges =\\*
 
 **Founder**: Jennings Zhang
 
