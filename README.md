@@ -4,19 +4,18 @@
 
 This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)*. *Beautiful Jekyll* is licensed under the MIT license.
 
-## Set up
+## Local development with Docker
 
-Do these steps *once*.
-
-1. Install `ruby`.
-2. Install bundler: `gem install bundler`
-3. Install dependencies: `bundle install` (make sure you are in the same directory as `Gemfile`)
-
-## Run a development server
-
-`bundle exec jekyll serve` will start a development server on http://127.0.0.1:4000/. Links to the homepage will not work on the local development server (they only work when published to github.io)
-
-The best way to run a local development server is to use the Docker container. I have no idea how to do that though. Reference the [upstream documentation](https://github.com/daattali/beautiful-jekyll#advanced-local-development-using-docker) for more information. 
+```bash
+# 1. build image
+docker build -t beautiful-jekyll $PWD
+# 2. start container for the first time
+docker run -d -p 4000:4000 --name twlinux -v $PWD:/srv/jekyll beautiful-jekyll
+# 3. stop the server
+docker stop twlinux
+# 4. server can be started again
+docker start twlinux
+```
 
 ## Writing blog posts
 
