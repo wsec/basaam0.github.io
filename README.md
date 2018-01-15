@@ -21,10 +21,19 @@ docker start twlinux
 
 Github pages does not support custom [Jekyll plugins](https://jekyllrb.com/docs/plugins/).
 
-Instead, generate static files to `/docs`.
+Instead, generate static files to the master branch from the source branch.
 
 ```bash
-docker run -it -v $PWD:/srv/jekyll --rm beautiful-jekyll bundle exec jekyll build --destination docs
+$ cd twlinux/twlinux.github.io
+$ git worktree add ../twlinux-gh-pages source
+$ tree -L 1 ..
+twlinux
+├── twlinux-gh-pages
+└── twlinux.github.io
+
+2 directories, 0 files
+$ cd ../twlinux-gh-pages
+$ docker run -it -v $PWD:/srv/jekyll -v $PWD/../twlinux.github.io/:/srv/jekyll/_site --rm beautiful-jekyll bundle exec jekyll build --destination _site
 ```
 
 ## Writing blog posts
