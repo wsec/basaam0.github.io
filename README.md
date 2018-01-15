@@ -17,7 +17,7 @@ docker stop twlinux
 docker start twlinux
 ```
 
-## Build to /docs folder
+## Bundle static files to master branch
 
 Github pages does not support custom [Jekyll plugins](https://jekyllrb.com/docs/plugins/).
 
