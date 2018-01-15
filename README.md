@@ -17,6 +17,16 @@ docker stop twlinux
 docker start twlinux
 ```
 
+## Build to /docs folder
+
+Github pages does not support custom [Jekyll plugins](https://jekyllrb.com/docs/plugins/).
+
+Instead, generate static files to `/docs`.
+
+```bash
+docker run -it -v $PWD:/srv/jekyll --rm beautiful-jekyll bundle exec jekyll build --destination docs
+```
+
 ## Writing blog posts
 
 [Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) is much easier to understand than HTML, however it may lack more advanced features. [daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll/tree/master/_posts) features some other non-traditional widgets that can be used in kramdown.

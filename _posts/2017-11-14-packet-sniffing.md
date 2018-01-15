@@ -2,6 +2,7 @@
 layout: post
 title: Packet Sniffing 
 subtitle: Week 7-9 - attacking internet connections
+tags: [MitM, lesson]
 ---
 
 # Alphabet Soup

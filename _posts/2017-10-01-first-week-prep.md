@@ -2,6 +2,7 @@
 layout: post
 title: Preparation for the first meeting!
 bigimg: /img/penguins/dive.jpg
+tags: [meta]
 ---
 
 We will be having our first meeting on Tuesday, the third of October. After an introduction, we'll be starting off by **installing Linux** on the workstations. As a reminder, we meet in **room 15**. Room 15 is a computer lab, with a door to another computer lab, dubbed the "networking lab." That is where we will be.

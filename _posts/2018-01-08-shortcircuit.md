@@ -3,6 +3,7 @@ layout: post
 title: Password Validation Riddle
 subtitle: Software analysis
 css: /css/code.css
+tags: [question, analysis]
 ---
 
 The two methods below, written in Java, check and validate username and password parameters.
