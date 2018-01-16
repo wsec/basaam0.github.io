@@ -1,0 +1,28 @@
+language: ruby
+rvm:
+  - 2.4.2
+
+script:
+  - bundle exec jekyll build --destination _site
+  - bundle exec htmlproofer --checks-to-ignore "ImageCheck" --url-ignore '/^((?!github\.com\/.*\/wiki\/).)*$/' ./_site
+  
+branches:
+  only:
+    - master
+    - source
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  local-dir: _site
+  on:
+    branch: source
+  target-branch: master
+
+sudo: false
