@@ -4,4 +4,5 @@ gem 'github-pages', '106'
 gem 'jekyll-paginate'
 group :test do
     gem "html-proofer"
+    gem "rake"
 end
