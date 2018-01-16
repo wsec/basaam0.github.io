@@ -1,5 +1,7 @@
 require 'html-proofer'
 
+task default: %w[test]
+
 task :test do
     sh "bundle exec jekyll build --destination='_site'"
     options = {

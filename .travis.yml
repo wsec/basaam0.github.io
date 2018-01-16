@@ -6,9 +6,6 @@ branches:
   only:
     - source
 
-script:
-  - bundle exec rake test
-
 cache:
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer #https://github.com/gjtorikian/html-proofer/issues/381
