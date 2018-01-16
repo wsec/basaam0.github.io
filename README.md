@@ -1,5 +1,6 @@
 # Wootton Linux Club website
 
+[![Build Status](https://travis-ci.org/twlinux/twlinux.github.io.svg?branch=source)](https://travis-ci.org/twlinux/twlinux.github.io)
 [![license](https://img.shields.io/github/license/twlinux/twlinux.github.io.svg)](https://github.com/twlinux/twlinux.github.io/blob/master/LICENSE)
 
 This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)*. *Beautiful Jekyll* is licensed under the MIT license.
@@ -17,24 +18,9 @@ docker stop twlinux
 docker start twlinux
 ```
 
-## Bundle static files to master branch
+## Continuous Integration
 
-Github pages does not support custom [Jekyll plugins](https://jekyllrb.com/docs/plugins/).
-
-Instead, generate static files to the master branch from the source branch.
-
-```bash
-$ cd twlinux/twlinux.github.io
-$ git worktree add ../twlinux-gh-pages source
-$ tree -L 1 ..
-twlinux
-├── twlinux-gh-pages
-└── twlinux.github.io
-
-2 directories, 0 files
-$ cd ../twlinux-gh-pages
-$ docker run -it -v $PWD:/srv/jekyll -v $PWD/../twlinux.github.io/:/srv/jekyll/_site --rm beautiful-jekyll bundle exec jekyll build --destination _site
-```
+Github does not support custom Jekyll plugins. Travis is used to build the site, pushing static files to master.
 
 ## Writing blog posts
 

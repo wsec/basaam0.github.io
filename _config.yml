@@ -131,6 +131,7 @@ exclude:
   - .bundle
   - vendor
   - .git
+  - .travis.yml
 
 # prose.io config
 prose:
