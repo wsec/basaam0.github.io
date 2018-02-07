@@ -764,7 +764,12 @@ td.gutter {
   font-size: 16px;
 }
 
-a.tag-btn {
+a.tag-btn.btn-primary {
   background-color: #990000;
+  border-color: #4d0000;
+}
+
+a.tag-btn.btn-primary:hover, a.tag-btn.btn-primary:focus {
+  background-color: #800000;
   border-color: #4d0000;
 }
