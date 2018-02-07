@@ -10,7 +10,7 @@ cache: bundler
 
 script:
   - bundle exec jekyll build --destination _site
-  - bundle exec htmlproofer --checks-to-ignore "ImageCheck" --url-ignore '/^((?!github\.com\/.*\/wiki\/).)*$/' ./_site
+#  - bundle exec htmlproofer --checks-to-ignore "ImageCheck" --url-ignore '/^((?!github\.com\/.*\/wiki\/).)*$/' ./_site
 
 env:
   global:
