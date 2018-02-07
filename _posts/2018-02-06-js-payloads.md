@@ -3,7 +3,6 @@ layout: post
 title: JavaScript Payloads
 subtitle: Week 18
 tags: [XSS, exploit]
-css: /css/code.css
 ---
 
 You've discovered a XSS vulnerability on a page. What next?
