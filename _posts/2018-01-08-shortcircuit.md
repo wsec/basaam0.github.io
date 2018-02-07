@@ -2,7 +2,6 @@
 layout: post
 title: Password Validation Riddle
 subtitle: Software analysis
-css: /css/code.css
 tags: [question, analysis]
 ---
 
