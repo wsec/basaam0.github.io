@@ -8,12 +8,11 @@ description: Systems, Software, Security
 # List of links in the navigation bar
 navbar-links:
   About: "about"
+  Getting Started: "getting_started"
   Resources:
     - Arch Linux wiki: "https://wiki.archlinux.org/"
-    - Windows Subsystem: "https://msdn.microsoft.com/en-us/commandline/wsl/install_guide"
-    - Installing Software: "https://github.com/twlinux/club/wiki/Installing-software-(apt)"
-    - Solus Project: "https://solus-project.com/"
-  LINUX commands: "https://github.com/jennydaman/twlinux/wiki/Basic-UNIX-and-bash-commands"
+    - Notes (PDF): "http://books.goalkicker.com/LinuxBook/"
+    - Common commands: "https://github.com/jennydaman/twlinux/wiki/Basic-UNIX-and-bash-commands"
 
 avatar: "/img/darkred-terminal.png"
 
