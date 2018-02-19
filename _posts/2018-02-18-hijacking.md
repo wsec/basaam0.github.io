@@ -43,11 +43,11 @@ const http = require('http');
 
 http.createServer((req, res) => {
 
-    let i = req.url.indexOf('?');
-    if (i !== -1)
-        console.log(req.connection.remoteAddress + ' ' + req.url.substring(i));
+  let i = req.url.indexOf('?');
+  if (i !== -1)
+    console.log(req.connection.remoteAddress + ' ' + req.url.substring(i));
 
-    res.end('thanks buddy\n');
+  res.end('thanks buddy\n');
 }).listen(process.env.PORT || 8125);
 
 {% endhighlight %}
