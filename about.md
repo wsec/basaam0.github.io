@@ -24,7 +24,7 @@ Wootton Red Team (originally Linux Club) is an after-school club that teaches st
 
 **Room**: 15 networking lab (next to the cafeteria)
 
-We meet **every Tuesday after-school from 14:40 to 16:00**.
+We meet **every Tuesday after-school from 14:40 to 15:30**(-ish).
 
 Contact [twlinux86@gmail.com](mailto:twlinux86@gmail.com) for more information.
 
