@@ -73,4 +73,19 @@ xhr.send();
 
 {% endhighlight %}
 
-# TODO: CSRF and cookie stealing server
+# Basic node.js Server
+
+{% highlight javascript linenos %}
+
+const http = require('http');
+
+http.createServer((req, res) => {
+
+    let i = req.url.indexOf('?');
+    if (i !== -1)
+        console.log(req.connection.remoteAddress + ' ' + req.url.substring(i));
+
+    res.end('thanks buddy\n');
+}).listen(process.env.PORT || 8125);
+
+{% endhighlight %}
