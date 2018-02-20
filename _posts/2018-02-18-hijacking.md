@@ -2,7 +2,7 @@
 layout: post
 title: Session Hijacking
 subtitle: Week 19 - data theft over the Internet
-tags: [XSS, exploit]
+tags: [XSS, node, exploit]
 ---
 
 Previously, we have demonstrated how to use ARP poison attacks to compromise unencrypted communication on local area networks (LAN). The attacks described below are effective over HTTPS traffic from external networks.
