@@ -7,6 +7,10 @@ tags: [XSS, node, exploit]
 
 Previously, we have demonstrated how to use [ARP poison](https://github.com/twlinux/club/wiki/Man-in-the-Middle-(MitM)-Attack-%E2%80%93-ARP-Poisoning) attacks to compromise unencrypted communication on local area networks (LAN). The attacks described below are effective over HTTPS traffic from external networks.
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T1QEs3mdJoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
+
 # Cookie Stealing
 
 First, you must create an entry point on the vulnerable website with cross-site scripting. Force clients to establish a connection with your server.
