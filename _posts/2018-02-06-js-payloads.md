@@ -42,8 +42,11 @@ setInterval(function() {
   alert("Don't forget to be awesome.");
 }, 5000);
 
-document.getElementsByTagName('h1')[0].innerHTML = 'Just wanted to say hello :)';
+document.getElementsByTagName('h1')[0].innerText = 'Just wanted to say hello :)';
 
+
+// these functions will DOS your site!
+location.reload();
 window.replace('http://www.staggeringbeauty.com/');
 
 {% endhighlight %}

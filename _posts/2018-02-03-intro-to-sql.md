@@ -12,5 +12,3 @@ Client-side input validation is inherently unsafe, because requests can easily b
 The quote character (`'` or `"`) ends a string. Unexpected quote marks in SQL statements results in exploits.
 
 See [*Let's Talk!* README.md#Vulnerabilities](https://github.com/twlinux/lets-talk#vulnerabilities) for examples.
-
-**Challenge**: submit a query to *Let's Talk!* that will dump the entire database of user login credentials.

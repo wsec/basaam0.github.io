@@ -5,7 +5,7 @@ subtitle: Week 19 - data theft over the Internet
 tags: [XSS, node, exploit]
 ---
 
-Previously, we have demonstrated how to use ARP poison attacks to compromise unencrypted communication on local area networks (LAN). The attacks described below are effective over HTTPS traffic from external networks.
+Previously, we have demonstrated how to use [ARP poison](https://github.com/twlinux/club/wiki/Man-in-the-Middle-(MitM)-Attack-%E2%80%93-ARP-Poisoning) attacks to compromise unencrypted communication on local area networks (LAN). The attacks described below are effective over HTTPS traffic from external networks.
 
 # Cookie Stealing
 
@@ -49,3 +49,5 @@ http.createServer((req, res) => {
 }).listen(process.env.PORT || 8125);
 
 {% endhighlight %}
+
+You can impersonate victims by spoofing their unique cookie. The Chrome extension [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is easy to use.
