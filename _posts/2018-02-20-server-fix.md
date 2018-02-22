@@ -68,7 +68,7 @@ console.log(sum(3, 18)); // 21
 ## Local Development
 
 [<img src="https://imgs.xkcd.com/comics/git.png" title="xkcd #1597" alt="relevant xkcd #1597" style="float: left; margin-right: 1rem;"/>](https://xkcd.com/1597/)
-I've automated installation to make the process as painless as possible. The only software required is a recent version of **docker-compose** (v1.12.0+, the one in *Ubuntu artful* will not work). and the **Docker engine** itself (17.04.0+). Both are Windows compatible!
+I've automated installation to make the process as painless as possible. The only software required is a recent version of **docker-compose** (version 1.12.0+, the one in *Ubuntu artful* will not work). and the **Docker engine** itself (release 17.04.0+). Both are Windows compatible!
 
 <https://www.docker.com/what-container>
 
