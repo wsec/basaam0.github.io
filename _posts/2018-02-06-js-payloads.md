@@ -18,7 +18,9 @@ Of course, you need to be familiar with Javascript first...
 
 <https://jsfiddle.net/> is a convenient way to execute JavaScript in your web browser.
 
-*****
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zv0kZKC6GAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
 
 # Client Payloads
 
