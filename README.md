@@ -7,8 +7,6 @@ This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful J
 
 ## Local development with Docker
 
-PROBABLY DOESN'T WORK after github-pages v163.
-
 ```bash
 # 1. build image
 docker build -t beautiful-jekyll $PWD
@@ -19,10 +17,6 @@ docker stop twlinux
 # 4. server can be started again
 docker start twlinux
 ```
-
-## Continuous Integration
-
-Github does not support custom Jekyll plugins. Travis is used to build the site, pushing static files to master.
 
 ## Writing blog posts
 
