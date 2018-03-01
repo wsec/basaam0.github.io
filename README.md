@@ -1,6 +1,5 @@
 # Wootton Linux Club website
 
-[![Build Status](https://travis-ci.org/twlinux/twlinux.github.io.svg?branch=source)](https://travis-ci.org/twlinux/twlinux.github.io)
 [![license](https://img.shields.io/github/license/twlinux/twlinux.github.io.svg)](https://github.com/twlinux/twlinux.github.io/blob/master/LICENSE)
 
 This site was built with the [Jekyll](https://jekyllrb.com/) theme *[Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)*. *Beautiful Jekyll* is licensed under the MIT license.
