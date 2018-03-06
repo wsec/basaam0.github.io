@@ -4,7 +4,7 @@ subtitle: Code Analysis Project
 tags: [node, question, analysis]
 ---
 
-Find OR fix a vulnerability in the *Let's Talk!* server. Be ready to present your findings on March 13.
+Find OR fix a vulnerability in the *Let's Talk!* server. Be ready to present your findings on April 3rd (after Spring Break).
 
 The instructions and source code are available on [Github](https://github.com/twlinux/lets-talk). 
 
