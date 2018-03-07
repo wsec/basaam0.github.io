@@ -12,7 +12,7 @@ Linux is an [open source](https://en.wikipedia.org/wiki/Free_and_open-source_sof
 
 # Installing Linux
 
-Microsoft provides the [Linux subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), which runs a native Linux environment on top of Windows 10.
+Microsoft provides the [Linux subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), which runs a native Linux environment on top of Windows 10. Even [Kali Linux](https://www.kali.org/news/kali-linux-in-the-windows-app-store/) is available from the Windows App Store, however setup isn't exactly straightforward. They have a cool video guide for running the XFCE4 desktop environment on top of Windows 10 too...
 
 The most common recommendation is to play around with [Linux distros](2017-10-03-week-one) on Oracle VM VirtualBox.
 
