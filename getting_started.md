@@ -20,6 +20,8 @@ Do you have an Android device? Because Android is powered by Linux! However, use
 
 For the daring, install Linux directly to your disk. You can replace your previous operating system, or partition a dual boot configuration. Don't hesitate to [contact me](mailto:twlinux86@gmail.com) for more help.
 
+If you really don't want to risk your own machine, Canonical is kind enough to provide Ubuntu containers for demonstration. <https://linuxcontainers.org/lxd/try-it/>
+
 # Distro Recommendations
 
 [**Solus.** https://solus-project.com/](https://solus-project.com/)
