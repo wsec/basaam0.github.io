@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to SQL
 subtitle: Week 17
-tags: [practice lab, SQLi]
+tags: [practice lab, web]
 ---
 
 Client-side input validation is inherently unsafe, because requests can easily be forged. The lack of server-side checks and query formatting allows for SQL injection attacks.

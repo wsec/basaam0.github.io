@@ -1,7 +1,7 @@
 ---
 title: DOM Practice
 subtitle: Changing site content with XSS
-tags: [XSS, practice lab, exploit]
+tags: [web, practice lab, question]
 ---
 
 Page content manipulation with JavaScript is a petty and trivial thing to do with injection vulnerabilities. Try to complete this challenge!

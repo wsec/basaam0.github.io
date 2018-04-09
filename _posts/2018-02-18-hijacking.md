@@ -2,7 +2,7 @@
 layout: post
 title: Session Hijacking
 subtitle: Week 19 - data theft over the Internet
-tags: [XSS, node, exploit]
+tags: [web, node]
 ---
 
 Previously, we have demonstrated how to use [ARP poison](https://github.com/twlinux/club/wiki/Man-in-the-Middle-(MitM)-Attack-%E2%80%93-ARP-Poisoning) attacks to compromise unencrypted communication on local area networks (LAN). The attacks described below are effective over HTTPS traffic from external networks.
