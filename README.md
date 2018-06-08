@@ -1,4 +1,4 @@
-# Wootton Linux Club website
+# Wootton Cybersecurity Club website
 
 [![license](https://img.shields.io/github/license/twlinux/twlinux.github.io.svg)](https://github.com/twlinux/twlinux.github.io/blob/master/LICENSE)
 
