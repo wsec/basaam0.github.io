@@ -12,7 +12,7 @@ navbar-links:
   Resources:
     - Arch Linux wiki: "https://wiki.archlinux.org/"
     - Notes (PDF): "http://books.goalkicker.com/LinuxBook/"
-    - Common commands: "https://github.com/jennydaman/twlinux/wiki/Basic-UNIX-and-bash-commands"
+    - Common commands: "https://github.com/wsec/club/wiki/Basic-UNIX-and-bash-commands"
 
 avatar: "/img/darkred-terminal.png"
 
@@ -32,13 +32,13 @@ footer-link-col: "#404040"
 # --- Footer options --- #
 
 author:
-  name: Jennings Zhang
+  name: Jennings Zhang + Basaam Malik
 
 # Select your active Social Network Links.
 social-network-links:
   email: "twlinux86@gmail.com"
-  facebook: "groups/140764279769355"
-  github: "twlinux"
+  facebook: "whscyber"
+  github: "wsec"
 #  rss: true
 # twitter: daattali
 # reddit: yourname
@@ -64,11 +64,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "twlinux.github.io"
+url-pretty: "wsec.github.io"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "twlinux"
+disqus: "wsec"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
