@@ -6,7 +6,7 @@ subtitle: Cybersecurity Club 2018-2019
 
 Wootton Cybersecurity Club is an after-school club that teaches students about advanced computer security and Linux system adminstration in order to prepare them for Capture the Flag (CTF) competitions. We perform **penetration testing** with the security-focused distributions [Kali Linux](https://kali.org/) and [Parrot Security OS](https://parrotsec.org/).
 
-[Flyer](https://twlinux.github.io/flyer/wootton%20red%20team.pdf)
+[Flyer](https://github.com/wsec/wsec.github.io/blob/master/flyer/wootton%20cybersecurity%20club%20poster.pdf)
 
 *Note: we do not attack and have never attacked school servers, please let me keep my computer privileges =\\*
 
@@ -18,7 +18,7 @@ Wootton Cybersecurity Club is an after-school club that teaches students about a
 
 **Room**: 15 networking lab (next to the cafeteria)
 
-We meet **every Tuesday after-school from 14:40 to 15:30**(-ish).
+We meet **every [TBA]**.
 
 Contact [twlinux86@gmail.com](mailto:twlinux86@gmail.com) for more information.
 
